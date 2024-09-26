@@ -1,31 +1,75 @@
-# Vue Basic
+# Nuxt 3 Minimal Starter
 
-[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build [Vue.js](https://vuejs.org/) apps in minutes. Use this repo with the [Vue quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vue) to build and customize a new static site.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Project setup
+## Setup
+
+Make sure to install the dependencies:
 
 ```bash
+# npm
 npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-### Compiles and hot-reloads for development
+## Development Server
+
+Start the development server on `http://localhost:3000`:
 
 ```bash
-npm run serve
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-### Compiles and minifies for production
+## Production
+
+Build the application for production:
 
 ```bash
+# npm
 npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
 
-### Lints and fixes files
+Locally preview production build:
 
 ```bash
-npm run lint
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
 ```
 
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
