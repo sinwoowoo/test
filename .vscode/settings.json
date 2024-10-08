@@ -1,0 +1,6 @@
+{
+    "github-actions.use-enterprise": true,
+    "github-actions.workflows.pinned.workflows": [
+
+    ]
+}
